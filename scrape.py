@@ -4,7 +4,7 @@ import time
 import csv
 
 starturl = "https://exoplanets.nasa.gov/discovery/exoplanet-catalog/"
-browser = webdriver.Edge("chromedriver.exe")
+browser = webdriver.Chrome("chromedriver.exe")
 
 # passing the path to the exe file
 # 7,12 allows program to launch the chrome browser&launch the website
